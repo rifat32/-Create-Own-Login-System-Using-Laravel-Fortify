@@ -119,7 +119,6 @@ HTTP response.
 To begin implementing password reset functionality, we need to instruct Fortify 
 how to return our 
 <strong>
-"forgot password" view.
 use Laravel\Fortify\Fortify;
 
 Fortify::requestPasswordResetLinkView(function () {
